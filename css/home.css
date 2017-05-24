@@ -1,0 +1,21 @@
+body {
+  background: #eeeef3;
+}
+@media screen and (max-width: 768px) {
+  .error-msg {
+    display: block;
+    padding: 5px;
+    background: #d9534f;
+    color: white;
+    text-align: center;
+  }
+
+  .error {
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+
+  section .user-form-holder form#user-form .user-post-field-holder {
+    margin: 0;
+  }
+}

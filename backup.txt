@@ -1,0 +1,40 @@
+<table align='center'>
+  <tr>
+    <td colspan="8">
+    </td>
+  </tr>
+  <tr><td><h3></h3></td></tr>
+  <tr><td><h3></h3></td></tr>
+  <tr>
+    <td><h4>Name:</h4></td>
+    <td><h3><?php echo $lastname ." " .$firstname; ?> </h3></td>
+  </tr>
+  <tr>
+    <td><h4>Gender:</h4></td>
+    <td><h3><?php echo $gender; ?> </h3></td>
+  </tr>
+  <tr>
+    <td><h4>Email:</h4></td>
+    <td><h3><?php echo $email; ?> </h3></td>
+  </tr>
+
+  <tr>
+    <td><h4>Skills:</h4></td>
+    <td><h3><?php echo $skills; ?> </h3></td>
+  </tr>
+
+  <tr>
+    <td><h4>Joined:</h4></td>
+    <td><h3><?php echo time_ago($joined); ?> </h3></td>
+  </tr>
+
+  <tr>
+    <td><h4>City:</h4></td>
+    <td><h3><?php echo $city; ?> </h3></td>
+  </tr>
+
+  <tr>
+    <td><h4>Country:</h4></td>
+    <td><h3><?php echo $country; ?> </h3></td>
+  </tr>
+</table>
